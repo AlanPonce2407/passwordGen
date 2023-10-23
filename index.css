@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    width: 1253px;
+    height: 678px;
+    padding: 64px 61px 64px 62px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background: #1C1C1C;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    color: #EEE
+}
+
+h1{
+    color: var(--white, #FFF); 
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px; /* 100% */
+    letter-spacing: -1px;
+}
+
+span {
+    color: #4ADF86; 
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+#content-box {
+    text-align: center;
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+    flex-shrink: 0;
+    border-radius: 20px;
+}
+
+#password-btn {
+    margin-top: 10%;
+    color: #EEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    display: inline-flex;
+    padding: 9px 17px 9px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: #10B981;
+    border: none;
+}
+
+#passwordOne-el, #passwordTwo-el {
+    width: 211px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #273549;
+    margin-top: 10%;
+    border: none;
+}
+
+.solid {
+    border: 1px solid #2F3E53;
+    margin-top: 15%;
+    width: 90%;
+}
+
+#passwordOne-el, #passwordTwo-el {
+    color: #EEE;
+}
